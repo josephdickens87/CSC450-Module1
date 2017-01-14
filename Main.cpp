@@ -10,10 +10,10 @@ int main()
     joeD.setFName("Joe");
     joeD.setLName("Dickens");
     joeD.setSAddress("15720 Almont Rd");
-    joeD.setCity("allenton");
+    joeD.setCity("Allenton");
     joeD.setZCode("48002");
 
-    cout <<joeD.getFName()+"\n"+joeD.getLName()+"\n"+joeD.getSAddress()+"\n"+joeD.getCity()+"\n"+joeD.getZCode()<<endl;
+    joeD.personSummary();
 
     return 0;
 }

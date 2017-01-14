@@ -2,6 +2,8 @@
 
 #include "termios.h"
 #include "string"
+#include <iostream>
+
 using namespace std;
 
 class Person
@@ -38,5 +40,10 @@ public:
     const string &getZCode() const;
 
     void setZCode(const string &zCode);
+
+    void personSummary()
+    {
+        cout <<getFName()+"\n"+getLName()+"\n"+getSAddress()+"\n"+getCity()+"\n"+getZCode()<<endl;
+    }
 
 };
